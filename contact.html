@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nariaki-portfolio</title>
+
+    <!--  favicon  -->
+    <link rel="shortcut icon" href="./images/N.png" type="image/x-icon">
+
+    <!--  google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=Noto+Serif:ital,wght@0,400;0,700;1,700&display=swap"
+        rel="stylesheet">
+
+    <!--  font awesome  -->
+    <script src="https://kit.fontawesome.com/bd52db534b.js" crossorigin="anonymous"></script>
+
+    <!--  original css  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header class="header js-header">
+        <div class="header__inner l-inner">
+            <h1 class="site__title">
+                <a href="index.html">nariaki portfolio</a>
+            </h1>
+            <!-- /.site__title -->
+
+            <nav class="gnav">
+                <ul class="gnav__menu">
+                    <li class="gnav__item">
+                        <a href="#concept" class="gnav__link">concept</a>
+                    </li>
+                    <!-- /.gnav__item -->
+                    <li class="gnav__item">
+                        <a href="#price" class="gnav__link">price</a>
+                    </li>
+                    <!-- /.gnav__item -->
+                    <li class="gnav__item">
+                        <a href="#works" class="gnav__link">works</a>
+                    </li>
+                    <!-- /.gnav__item -->
+                    <li class="gnav__item">
+                        <a href="#contact" class="gnav__link">contact</a>
+                    </li>
+                    <!-- /.gnav__item -->
+                </ul>
+                <!-- /.gnav__menu -->
+            </nav>
+            <!-- /.gnav -->
+        </div>
+        <!-- /.l-inner -->
+    </header>
+    <!-- /.header -->
+
+    <!--drawer  -->
+    <div class="drawer__icon js-header--drawer">
+        <div class="drawer__icon-bars">
+            <span class="drawer__icon-bar1"></span>
+            <span class="drawer__icon-bar2"></span>
+            <span class="drawer__icon-bar3"></span>
+        </div>
+    </div>
+
+    <nav class="drawer__content">
+        <ul class="drawer__menu">
+            <li class="drawer__item">
+                <a class="drawer__link" href="#concept">concept</a>
+            </li>
+            <li class="drawer__item">
+                <a class="drawer__link" href="#price">price</a>
+            </li>
+            <li class="drawer__item">
+                <a class="drawer__link" href="#works">works</a>
+            </li>
+            <li class="drawer__item">
+                <a class="drawer__link" href="#contact">contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!--/drawer  -->
+
+    <main class="main">
+        <div class="mv contact__fv">
+            <div class="mv__inner l-inner">
+                <h2 class="mv__title">contact</h2>
+                <!-- /.mv__title -->
+                <!-- /.mv__read -->
+            </div>
+            <!-- /.mv__inner l-inner -->
+        </div>
+        <!-- /.mv -->
+
+        <form action="" class="form section">
+            <div class="form__inner l-inner">
+                <dl class="form__area">
+                    <div class="form__item">
+                        <dt class="form__title">
+                            ご依頼内容<span class="required">必須</span>
+                        </dt>
+                        <dd class="form__input radio-wrap">
+                            <label for="radio1">
+                                <input class="radio-btn" type="radio" name="request" id="radio1" required checked>
+                                <span class="input-radio">LP・Webサイト制作</span>
+                            </label>
+                            <label for="radio2">
+                                <input class="radio-btn" type="radio" name="request" id="radio2">
+                                <span class="input-radio">既存サイトの修正・再構築</span>
+                            </label>
+                            <label for="radio3">
+                                <input class="radio-btn" type="radio" name="request" id="radio3">
+                                <span class="input-radio">Word Pressサイト構築</span>
+                            </label>
+                        </dd>
+                        <!-- /.form__input radio -->
+                    </div>
+                    <!-- /.form__item -->
+
+                    <div class="form__item">
+                        <dt class="form__title">
+                            会社名・屋号<span class="required">必須</span>
+                        </dt>
+                        <dd class="form__input">
+                            <input type="text" name="" id="" placeholder="会社名" required>
+                        </dd>
+                        <!-- /.form__input text -->
+                    </div>
+                    <!-- /.form__item -->
+
+                    <div class="form__item">
+                        <dt class="form__title">
+                            メールアドレス<span class="required">必須</span>
+                        </dt>
+                        <dd class="form__input">
+                            <input type="email" name="" id="" placeholder="メールアドレス" required>
+                        </dd>
+                        <!-- /.form__input email -->
+                    </div>
+                    <!-- /.form__item -->
+
+                    <div class="form__item">
+                        <dt class="form__title">
+                            電話番号<span class="required">必須</span>
+                        </dt>
+                        <dd class="form__input">
+                            <input type="tel" name="" id="" placeholder="電話番号" required>
+                        </dd>
+                        <!-- /.form__input tel -->
+                    </div>
+                    <!-- /.form__item -->
+
+                    <div class="form__item">
+                        <dt class="form__title">
+                            ご依頼内容の詳細<span class="required">必須</span>
+                        </dt>
+                        <dd class="form__input">
+                            <textarea name="" id="" placeholder="ご依頼内容の詳細" required></textarea>
+                        </dd>
+                        <!-- /.form__input textarea -->
+                    </div>
+                    <!-- /.form__item -->
+                </dl>
+                <!-- /.form__area -->
+                <div class="form__footer">
+                    <button type="submit" class="form__btn c-btn">送信する</button>
+                </div>
+                <!-- /.form__btn -->
+            </div>
+            <!-- /.form__inner -->
+        </form>
+    </main>
+    <!-- /.main -->
+
+    <footer class="footer">
+        <p class="footer__copyright l-inner">
+            <small class="copyright">&copy;nariaki portfolio all rights reserved</small>
+        </p>
+        <!-- /.footer__copyright -->
+    </footer>
+    <!-- /.footer -->
+
+
+    <!--page-top  -->
+    <div class="page-top">
+        <a href="#" class="page-top__btn"><i class="fa-solid fa-circle-chevron-up"></i></a>
+    </div>
+    <!--/page-top  -->
+
+    <!--  jQuery  -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+    <!--  bgswitcher  -->
+    <script src="js/jquery.bgswitcher.js"></script>
+
+    <!--  original js  -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
